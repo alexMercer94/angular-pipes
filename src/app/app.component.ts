@@ -26,4 +26,12 @@ export class AppComponent {
       resolve('Llego la data');
     }, 3500);
   });
+
+  fecha = new Date();
+
+  name = 'aleJandro cRuz vaLEra';
+
+  video = 'Oi0sVRZ_49c';
+
+  activar = true;
 }
