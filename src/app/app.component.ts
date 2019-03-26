@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-pipes';
+  nombre = 'Alex';
+  arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  pi = Math.PI;
+  a = 0.234;
+  salary = 1234.5;
+  heroe = {
+    nombre: 'Logan',
+    clave: 'Wolverin',
+    edad: '500',
+    address: {
+      street: 'Primera',
+      house: '19'
+    }
+  };
+
+  valorDePromesa = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Llego la data');
+    }, 3500);
+  });
 }
